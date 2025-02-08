@@ -32,48 +32,48 @@ body {
 }
 
 .content {
-    max-width: 800px;
+    max-width: 90%; /* Lebar konten lebih kecil untuk handphone */
     padding: 20px;
 }
 
 h1 {
-    font-size: 3.5rem;
-    margin-bottom: 20px;
+    font-size: 2rem; /* Ukuran font lebih kecil */
+    margin-bottom: 15px;
     text-transform: uppercase;
     animation: fadeIn 2s ease-in-out;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1rem; /* Ukuran font lebih kecil */
     margin-bottom: 20px;
     animation: fadeIn 3s ease-in-out;
 }
 
 .countdown {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    flex-direction: column; /* Tampilkan countdown secara vertikal */
+    gap: 10px;
     margin-bottom: 30px;
     animation: slideIn 1.5s ease-in-out;
 }
 
 .time-box {
     background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
-    width: 100px;
+    width: 100%; /* Lebar penuh untuk handphone */
 }
 
 .time-box span {
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem; /* Ukuran font waktu lebih kecil */
     font-weight: bold;
 }
 
 .cta-button {
     display: inline-block;
-    padding: 15px 30px;
-    font-size: 1.2rem;
+    padding: 10px 20px;
+    font-size: 1rem; /* Ukuran tombol lebih kecil */
     color: #fff;
     background: #ff4757;
     border-radius: 50px;
@@ -101,35 +101,4 @@ p {
     0% { transform: scale(1); }
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
-}
-
-/* Responsive Design untuk Handphone */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-        margin-bottom: 15px;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    .countdown {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .time-box {
-        width: 80%;
-        padding: 15px;
-    }
-
-    .time-box span {
-        font-size: 1.5rem;
-    }
-
-    .cta-button {
-        font-size: 1rem;
-        padding: 10px 20px;
-    }
 }
