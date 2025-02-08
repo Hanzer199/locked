@@ -51,7 +51,7 @@ p {
 
 .countdown {
     display: flex;
-    flex-direction: column; /* Tampilkan countdown secara vertikal */
+    flex-direction: column; /* Tampilkan countdown secara horizontal */
     gap: 10px;
     margin-bottom: 30px;
     animation: slideIn 1.5s ease-in-out;
