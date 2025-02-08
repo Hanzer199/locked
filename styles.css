@@ -106,35 +106,30 @@ p {
 /* Responsive Design untuk Handphone */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2rem; /* Ukuran font lebih kecil */
+        font-size: 2rem;
         margin-bottom: 15px;
     }
 
     p {
-        font-size: 1rem; /* Ukuran font lebih kecil */
+        font-size: 1rem;
     }
 
     .countdown {
-        flex-direction: column; /* Tampilkan countdown secara vertikal */
+        flex-direction: column;
         gap: 10px;
     }
 
     .time-box {
-        width: 80%; /* Lebar kotak waktu lebih kecil */
+        width: 80%;
         padding: 15px;
     }
 
     .time-box span {
-        font-size: 1.5rem; /* Ukuran font waktu lebih kecil */
+        font-size: 1.5rem;
     }
 
     .cta-button {
-        font-size: 1rem; /* Ukuran tombol lebih kecil */
+        font-size: 1rem;
         padding: 10px 20px;
     }
 }
-@media (max-width: 768px) {
-        .landing-page {
-            background: url('iphone-background-mobile.jpg') no-repeat center center/cover;
-        }
-    }
