@@ -36,7 +36,7 @@ body {
     padding: 20px;
 }
 
-h1 {
+h2 {
     font-size: 2rem; /* Ukuran font lebih kecil */
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -61,12 +61,12 @@ p {
     background: rgba(255, 255, 255, 0.1);
     padding: 15px;
     border-radius: 10px;
-    width: 30%; /* Lebar penuh untuk handphone */
+    width: 10%; /* Lebar penuh untuk handphone */
 }
 
 .time-box span {
     display: block;
-    font-size: 1.5rem; /* Ukuran font waktu lebih kecil */
+    font-size: 1.1rem; /* Ukuran font waktu lebih kecil */
     font-weight: bold;
 }
 
