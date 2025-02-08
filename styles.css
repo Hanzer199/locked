@@ -15,7 +15,7 @@ body {
 .landing-page {
     position: relative;
     height: 100vh;
-    background: url('iphone-background.jpg') no-repeat center center/cover;
+    background: url('https://i.imgur.com/Y314TQB.jpeg') no-repeat center center/cover;
 }
 
 .overlay {
